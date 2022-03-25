@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Hello, world!</title>
+    <style>
+    </style>
+  </head>
+  <body class="body" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="56">
+
+<!-- Header-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">CarlosPianoForte
+<!--         <img class="logo" src="assets/images/logo.png" alt="logo">
+ -->      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#main">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#speakers">Artist</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#place-time">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle header-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#main">About me</a></li>
+              <li><a class="dropdown-item" href="#speaker">Portfolio</a></li>
+              <li><a class="dropdown-item" href="#place-time">Experience</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- /Header-->
+
+<!-- MAIN-->
+<main id="main">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/piano3.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/piano1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/piano2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/piano4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/piano5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/piano6.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="overlay">
+              <div class="container">
+                  <div class="row align-items-center">
+                        <div class="col-md-6 text-center text-md-start">
+                                <h1>Welcome to my website</h1>
+                                <p class="d-none d-md-block">
+                                I'm Carlos Ortiz, amateur pianist, I have played works by 
+                                various authors, among my favorites are Chopin and Debussy, 
+                                I hope you like them.
+                                </p>
+                                <a href="https://www.youtube.com/channel/UC73HakhEFU9_jytP9XBCZ-Q/videos" class="btn btn-outline-light">Watch on YouTube</a>
+
+                        </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+<!--         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+      </div>
+
+
+</main>
+
+<!-- /main-->
+
+<!-- speakers-->
+
+<section id="speakers" class="mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center text-uppercase">
+                <small>Meet the best</small>
+                <h2>Artists</h2>
+            </div>
+                <div class="row">
+                    <div class="col col-md-3 mb-4">
+                        <div class="card">
+                            <img src="assets/images/beethoven.jpg" class="card-img-top" alt="beethoven">
+                            <div class="card-body">
+                              <h5 class="card-title">Beethoven</h5>
+                              <div class="badges">
+                                <span class="badge badge bg-primary">Clasicismo</span>
+                                <span class="badge badge bg-secondary">Orquesta</span>
+                                <span class="badge badge bg-success">Piano</span>
+                              </div>
+                              <p class="card-text"> German composer, conductor, pianist and piano teacher. 
+                                His musical legacy spans, chronologically, 
+                                from Classicism to the beginnings of Romanticism.</p>
+                              <a href="https://es.wikipedia.org/wiki/Ludwig_van_Beethoven" class="btn btn-primary">See more</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card">
+                            <img src="assets/images/chopin.png" class="card-img-top" alt="chopin">
+                            <div class="card-body">
+                              <h5 class="card-title">Chopin</h5>
+                              <div class="badges">
+                                <span class="badge badge bg-primary">Romanticismo</span>
+                                <span class="badge badge bg-secondary">Sinfonico</span>
+                                <span class="badge badge bg-success">Piano</span>
+                              </div>
+                              <p class="card-text"> He was a Polish teacher, composer and virtuoso pianist, 
+                                considered one of the most important in history and one of the greatest representatives 
+                                of musical Romanticism. </p>
+                              <a href="https://es.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin" class="btn btn-primary">See more</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card">
+                            <img src="assets/images/debussy.jpg" class="card-img-top" alt="debussy">
+                            <div class="card-body">
+                              <h5 class="card-title">Debussy</h5>
+                              <div class="badges">
+                                <span class="badge badge bg-primary">Impresionismo</span>
+                                <span class="badge badge bg-secondary">Compositor</span>
+                                <span class="badge badge bg-success">Piano</span>
+                              </div>
+                              <p class="card-text"> One of the most influential of the XIX and early XX
+                                centuries. Some authors consider him the first composer to 
+                                <abbr data-bs-toggle="tooltip" data-bs-placement="top" title="express ideas in a hinted">impressionist</abbr> 
+                                way, although he categorically rejected the finished. </p>
+                              <a href="https://es.wikipedia.org/wiki/Claude_Debussy" class="btn btn-primary">See more</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-md-3 mb-4">
+                        <div class="card">
+                            <img src="assets/images/mozart.jpg" class="card-img-top" alt="mozart">
+                            <div class="card-body">
+                              <h5 class="card-title">Mozart</h5>
+                              <div class="badges">
+                                <span class="badge badge bg-primary">Clasicismo</span>
+                                <span class="badge badge bg-secondary">Opera</span>
+                                <span class="badge badge bg-success">Piano</span>
+                              </div>
+                              <p class="card-text"> Composer, pianist, conductor and professor of the former 
+                                Archbishopric of Salzburg, master of Classicism, considered one of the most 
+                                influential musicians in history. </p>
+                              <a href="https://es.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart" class="btn btn-primary">See more</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+ 
+        </div>
+    </div>
+</section>
+
+<!-- /speaker -->
+
+
+<!-- Fecha y hora -->
+    <section id="place-time">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col col-md-4 p-3" id="image-me">
+                    <img src="assets/images/yo.PNG" alt="">
+                </div>
+                <div class="col-12 col-md-8 pt-1">
+                    <title>About Me</title>
+                    <h2>About me</h2>
+                    <p>I'm amateur pianist, playing piano since I was 7 years old, I started studying piano
+                        in Bellas Artes and continued at the conservatory of music of the university of Antioquia
+                        for 8 years. In my free time I play works from various contemporary arts.
+                    </p>
+                </div>
+            </div>
+          </div>
+    </section>
+<!-- Fecha y hora -->
+
+<!-- Conviértete en orador -->
+<section id="conviertete-en-orador" class="pt-3 pb-3">
+  <div class="container">
+    <div class="row">
+      <div class="col text-uppercase text-center">
+        <small>become a </small>
+        <h2>Listener</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        Leave your comment.
+        What works would you like to see?
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+        <form>
+          <div class="form-row">
+            <div class="form-label col-12 col-md-6">
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-label col-12 col-md-6">
+              <input type="text" class="form-control" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-label col">
+              <textarea name="text" class="form-control form-control-lg" placeholder="What comment do you have?"></textarea>
+              <small class="form-text text-muted">
+                Remember include the title
+              </small>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col">
+              <button type="button" class="btn btn-platzi btn-block" data-bs-target="#modalSend" data-bs-toggle="modal">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Conviértete en orador -->
+
+
+     <!--  Fotter-->      
+     <footer id="footer" class="pb-4 pt-4">
+          <div class="container">
+              <div class="row text-center">
+                  <div class="col-12 col-lg">
+                      <a href="#">Preguntas frecuentes</a>
+                  </div>
+                  <div class="col-12 col-lg">
+                    <a href="#">contactanos</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">prensa</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">terminos y condiciones</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">privacidad</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">estudiantes</a>
+                </div>
+
+              </div>
+          </div>
+    </footer>
+    <!--  /Fotter-->      
+
+    <!-- modal -->
+
+    <div class="modal fade" id="modalSend" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Are you sure to send this message?</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-warning" role="alert">
+              Select confirm to send!
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Confirm</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /modal -->
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
